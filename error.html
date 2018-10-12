@@ -1,0 +1,247 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WTF!</title>
+		<style>
+		body {
+			font-family: sans-serif;
+			background: #1e1e1e;
+			color: #888;
+		}
+		.center-v {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		.title {
+			font-size: 3em;
+			display: flex;
+			flex-direction: row;
+			align-items: baseline;
+			justify-content: center;
+		}
+		.text {
+			font-size: 2em;
+		}
+		.vibrating {
+			position: relative;
+			-webkit-animation-name: vibrating;
+			-webkit-animation-duration: 100ms;
+			-webkit-animation-iteration-count: infinite;
+			-moz-animation-name: vibrating;
+			-moz-animation-duration: 100ms;
+			-moz-animation-iteration-count: infinite;
+			-o-animation-name: vibrating;
+			-o-animation-duration: 100ms;
+			-o-animation-iteration-count: infinite;
+			animation-name: vibrating;
+			animation-duration: 100ms;
+			animation-iteration-count: infinite;
+		}
+		@-webkit-keyframes vibrating {
+			0%	{left:-0.15rem;top:-0.15rem;}
+			25%	{left:0.15rem;top:-0.15rem;}
+			50%	{left:0.15rem;top:0.15rem;}
+			75%	{left:-0.15rem;top:0.15rem;}
+			100%	{left:-0.15rem;top:-0.15rem;}
+		}
+		@-moz-keyframes vibrating {
+			0%	{left:-0.15rem;top:-0.15rem;}
+			25%	{left:0.15rem;top:-0.15rem;}
+			50%	{left:0.15rem;top:0.15rem;}
+			75%	{left:-0.15rem;top:0.15rem;}
+			100%	{left:-0.15rem;top:-0.15rem;}
+		}
+		@-o-keyframes vibrating {
+			0%	{left:-0.15rem;top:-0.15rem;}
+			25%	{left:0.15rem;top:-0.15rem;}
+			50%	{left:0.15rem;top:0.15rem;}
+			75%	{left:-0.15rem;top:0.15rem;}
+			100%	{left:-0.15rem;top:-0.15rem;}
+		}
+		@keyframes vibrating {
+			0%	{left:-0.1rem;top:-0.1rem;}
+			25%	{left:0.1rem;top:-0.1rem;}
+			50%	{left:0.1rem;top:0.1rem;}
+			75%	{left:-0.1rem;top:0.1rem;}
+			100%	{left:-0.1rem;top:-0.1rem;}
+		}
+		.error-heading {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: baseline;
+			justify-content: left;
+			font-family: monospace;
+		}
+		.errot-heading-code {
+			font-family: monospace;
+		}
+		.error-heading-code-str {
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: baseline;
+			font-family: monospace;
+		}
+		.error-heading-wtf {
+			margin: 0;
+			display: inline-block;
+			font-size: 2.5em;
+			font-weight: 900;
+			font-family: monospace;
+			color: #000;
+		}
+		.error-text {
+			margin: 0;
+			font-weight: 500;
+			color: #888;
+		}
+		.error-text-wtf {
+			font-size: 1.5em;
+			font-weight: 700;
+			font-family: monospace;
+			color: #569cd6;
+		}
+		.code-str {
+			display: flex;
+			flex-wrap: nowrap;
+			align-items: baseline;
+			font-family: monospace;
+		}
+		.code-js-instance {
+			color: #9cdcfe;
+		}
+		.code-js-object-dot {
+			color: #d4d4d4;
+		}
+		.code-js-method {
+			color: #dcdcaa;
+		}
+		.code-js-parentheses {
+			color: #d4d4d4;
+		}
+		.code-js-str {
+			color: #ce9178;
+		}
+		.code-js-str-l {
+			color: #d47d5b;
+		}
+		.code-js-semicolon {
+			color: #d4d4d4;
+		}
+		.code-html-ltgt {
+			color: #808080;
+		}
+		.code-html-closing {
+			color: #808080;
+		}
+		.code-html-tag {
+			color: #569cd6;
+		}
+		.code-html-attr {
+			color: #93cfef;
+		}
+		.code-html-attr-assign {
+			color: #d4d4d4;
+		}
+		.code-html-attr-value-str {
+			color: #ce9178;
+		}
+		.code-html-value {
+			color: #d4d4d4;
+		}
+		.go-home {
+			margin-top: 0.5em;
+		}
+		#go-home-link {
+			color: #666;
+		}
+		#go-home-text {
+			margin: 0;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: baseline;
+			justify-content: center;
+			font-family: monospace;
+			color: #666;
+			font-size: 2em;
+		}
+		::selection {
+			background: #aaa;
+		}
+		</style>
+	</head>
+	<body>
+		<div align="center">
+			<div class="center-v">
+				<div class="title">
+					<div class="error-heading vibrating">
+						<span class="error-heading-code code-js-instance">console</span>
+						<span class="error-heading-code code-js-object-dot">.</span>
+						<span class="error-heading-code code-js-method">log</span>
+						<span class="error-heading-code code-js-parentheses">(</span>
+						<span class="code-str">
+							<span class="error-heading-code code-js-str">"</span>
+							<h1 class="error-heading-wtf error-heading-code code-js-str-l vibrating">WTF!</h1>
+							<span class="error-heading-code code-js-str">"</span>
+						</span>
+						<span class="error-heading-code code-js-parentheses">)</span>
+						<span class="error-heading-code code-js-semicolon">;</span>
+					</div>
+				</div>
+				<div class="text">
+					<p class="error-text">Don't get me wrong!</p>
+					<p class="error-text">I mean</p>
+					<p class="error-text">
+						<span class="error-text-wtf vibrating">What</span>
+						a 
+						<span class="error-text-wtf vibrating">Terrible</span> 
+						<span class="error-text-wtf vibrating">Failure</span>
+						.
+					</p>
+				</div>
+				<div class="go-home">
+					<a id="go-home-link" href="/">
+						<p id="go-home-text">
+							<span class="code-html-ltgt">&lt;</span>
+							<span class="code-html-tag">a</span>
+							&MediumSpace;
+							<span class="code-html-attr">href</span>
+							<span class="code-html-attr-assign">=</span>
+							<span class="code-str">
+								<span class="code-html-attr-value-str">"</span>
+								<span class="code-html-attr-value-str" id="display-url">/</span>
+								<span class="code-html-attr-value-str">"</span>
+							</span>
+							<span class="code-html-ltgt">&gt;</span>
+							<span class="code-html-value">Home</span>
+							<span class="code-html-ltgt">&lt;</span>
+							<span class="code-html-closing">/</span>
+							<span class="code-html-tag">a</span>
+							<span class="code-html-ltgt">&gt;</span>
+						</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		console.log(
+			'%c WTF! ',
+			'font-weight: bold;' + 
+			'font-size: 200px;' +
+			'color: red;' + 
+			'text-shadow: 5px 5px 0 rgb(217,31,38),' + 
+				'10px 10px 0 rgb(226,91,14),' + 
+				'15px 15px 0 rgb(245,221,8),' +
+				'20px 20px 0 rgb(5,148,68),' + 
+				'25px 25px 0 rgb(2,135,206),' +
+				'30px 30px 0 rgb(4,77,145),' +
+				'35px 35px 0 rgb(42,21,113)'
+		);
+		let home_url = window.location.protocol + '//' + window.location.host;
+		document.getElementById('go-home-link').setAttribute('href', home_url);
+		document.getElementById('display-url').innerText = home_url;
+	</script>
+</html>
